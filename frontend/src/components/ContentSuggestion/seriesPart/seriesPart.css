@@ -1,0 +1,51 @@
+.series-parts {
+  color: white;
+  height: 20rem;
+  width: 20rem;
+}
+
+.series-parts .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.series-parts .content .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.series-parts .content .episodesTitle {
+  padding: 0.5rem 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.series-parts .content .episodesTitle p {
+  color: grey;
+}
+
+.series-parts .content .episodesTitle .episode-name {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.series-parts .content .description {
+  color: #c9c9c9;
+}
+/*# sourceMappingURL=seriesPart.css.map */

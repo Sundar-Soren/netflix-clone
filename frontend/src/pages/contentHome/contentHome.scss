@@ -1,0 +1,26 @@
+.content-home {
+  padding: 1rem 5rem;
+  overflow: hidden;
+
+  .suggestionContainer {
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .related-content-heading {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+  .related-contents {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

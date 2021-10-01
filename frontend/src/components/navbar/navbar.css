@@ -1,0 +1,87 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  color: white;
+  font-size: 1.1rem;
+  z-index: 999;
+  background: radial-gradient(circle, rgba(73, 45, 85, 0.3) 0%, rgba(108, 61, 65, 0.3) 50%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.navbar.scrolled {
+  background-color: #0b0b0b;
+}
+
+.navbar .container {
+  padding: 0px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+}
+
+.navbar .container .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .container .left img {
+  height: 30px;
+  margin-right: 40px;
+}
+
+.navbar .container span {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.navbar .container .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .container .right .icon {
+  margin: 15px;
+}
+
+.navbar .container .right img {
+  width: 50px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+
+.navbar .container .right .profile .options {
+  background-color: #0b0b0b;
+  display: none;
+  border-radius: 5px;
+}
+
+.navbar .container .right .profile:hover .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+}
+/*# sourceMappingURL=navbar.css.map */

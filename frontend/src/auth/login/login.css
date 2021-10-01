@@ -1,0 +1,109 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), url("https://i0.wp.com/thebutlercollegian.com/wp-content/uploads/2019/03/netflix-image.jpg?w=1920&ssl=1");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("https://i0.wp.com/thebutlercollegian.com/wp-content/uploads/2019/03/netflix-image.jpg?w=1920&ssl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.login .top .wrapper {
+  padding: 3rem 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 30px;
+}
+
+.login .top .wrapper img {
+  height: 40px;
+}
+
+.login .container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .container form {
+  height: 80%;
+  width: 26rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  padding: 3rem;
+}
+
+.login .container form h1 {
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+}
+
+.login .container form input {
+  height: 3rem;
+  padding-left: 1rem;
+  margin: 6px 0px;
+  background: #333;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: medium;
+}
+
+.login .container form input:focus {
+  border-bottom: 2px solid #e87c03;
+}
+
+.login .container form button {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  padding: 10px 0px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #cf0610;
+}
+
+.login .container form button:hover {
+  background-color: #e50914;
+}
+
+.login .container form span {
+  color: #b3b3b3;
+  padding: 3rem 0px 0px 0px;
+}
+
+.login .container form span b {
+  color: white;
+  cursor: pointer;
+}
+
+.login .container form p {
+  color: #b3b3b3;
+  font-size: small;
+  padding: 2rem 0px 0px 0px;
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,83 @@
+.newProduct{
+    background-color: red;
+    color: white;
+    h1{
+        padding: .5rem 1rem;
+    }
+    .addProductForm {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .text-input-from{
+             .addProductItem {
+                 width: 250px;
+                margin: 1rem;
+                display: flex;
+                 flex-direction: column;
+                margin-bottom: 10px;
+
+                    label {
+                color: rgb(192, 192, 192);
+                font-weight: 600;
+                margin-bottom: 10px;
+              }
+              input {
+                padding: 10px;
+              }
+              select {
+                padding: 10px;
+              }
+
+            }
+       
+          }
+          .file-input-from{
+            .progress-bar-container{
+              height: max-content;
+              border: 3px solid white;
+              border-radius: 5px;
+              .progress-bar{
+                height: 20px;
+                  background-color: black;
+              }
+            }
+            .addProductItem {
+                width: 250px;
+               margin: 1rem;
+               display: flex;
+                flex-direction: column;
+               margin-bottom: 10px;
+
+                   label {
+               color: rgb(192, 192, 192);
+               font-weight: 600;
+               margin-bottom: 10px;
+             }
+             input {
+               padding: 10px;
+             }
+             select {
+               padding: 10px;
+             }
+
+           }
+              .addProductButton {
+                width: 10rem;
+                height: 3rem;
+                margin:1.5rem;
+                padding: 7px 10px;
+                font-size: 1.3rem;
+                border: none;
+                border-radius: 7px;
+                background-color: #000;
+                color: white;
+                font-weight: 400;
+                
+                cursor: pointer;
+              }
+        }
+      }
+      
+}

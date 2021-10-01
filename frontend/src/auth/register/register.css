@@ -1,0 +1,185 @@
+.register {
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), url("https://i0.wp.com/thebutlercollegian.com/wp-content/uploads/2019/03/netflix-image.jpg?w=1920&ssl=1");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("https://i0.wp.com/thebutlercollegian.com/wp-content/uploads/2019/03/netflix-image.jpg?w=1920&ssl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register .top {
+  padding: 3rem 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 8vh;
+}
+
+@media (max-width: 500px) {
+  .register .top {
+    padding: 3rem 10px;
+  }
+}
+
+.register .top img {
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.register .top .loginButton {
+  padding: 0.4rem 0.9rem;
+  background-color: #e50914;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.register .container {
+  color: white;
+  width: 100%;
+  height: 86vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.register .container h1 {
+  font-size: 4.5rem;
+  padding-bottom: 0.4rem;
+}
+
+@media (max-width: 800px) {
+  .register .container h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .register .container h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .register .container h1 {
+    font-size: 2rem;
+  }
+}
+
+.register .container h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0.4rem 0px;
+}
+
+@media (max-width: 800px) {
+  .register .container h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .register .container h3 {
+    font-size: 1rem;
+  }
+}
+
+.register .container p {
+  font-size: 1.2rem;
+  padding: 0.8rem 0px;
+}
+
+@media (max-width: 650px) {
+  .register .container p {
+    font-size: 1rem;
+  }
+}
+
+.register .container .input {
+  width: 50%;
+  height: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 850px) {
+  .register .container .input {
+    width: 70%;
+    display: block;
+  }
+}
+
+.register .container .input input {
+  padding-left: 10px;
+  width: 70%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 850px) {
+  .register .container .input input {
+    width: 100%;
+    height: 80%;
+  }
+}
+
+.register .container .input .registerButton {
+  cursor: pointer;
+  color: white;
+  width: 30%;
+  border: none;
+  font-size: 2rem;
+  background-color: #e50914;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 850px) {
+  .register .container .input .registerButton {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0px;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+
+.register .container .input .registerButton:hover {
+  background-color: #fa121e;
+}
+
+.register .container .input .registerButton .SIcon {
+  height: 100%;
+}
+/*# sourceMappingURL=register.css.map */

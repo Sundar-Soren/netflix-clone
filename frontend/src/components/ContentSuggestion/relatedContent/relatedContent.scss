@@ -1,0 +1,13 @@
+.related-content {
+  padding-right: 6px;
+  padding-bottom: 6px;
+  color: white;
+  height: 12rem;
+  width: 20rem;
+  cursor: pointer;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}

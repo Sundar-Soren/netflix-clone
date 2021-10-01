@@ -1,0 +1,20 @@
+.watch{
+    height: max-content;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .videoContainer{
+        height: 90vh;
+        width: 90%;
+        position: relative;
+
+    
+        video{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,97 @@
+.featured {
+  height: 90vh;
+  position: relative;
+}
+
+.featured .category {
+  position: absolute;
+  top: 8rem;
+  left: 4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featured .category select {
+  cursor: pointer;
+  background-color: var(--main-color);
+  border: none;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.featured img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.featured .info {
+  width: 35%;
+  position: absolute;
+  left: 4rem;
+  bottom: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.featured .info .desc {
+  color: white;
+  margin-top: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.featured .info .buttons {
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.featured .info .buttons button {
+  padding: 6px 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  border-radius: 6px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.featured .info .buttons button span {
+  margin-left: 4px;
+}
+
+.featured .info .buttons button.play {
+  background-color: white;
+  color: var(--main-color);
+}
+
+.featured .info .buttons button.more {
+  background-color: grey;
+  color: white;
+}
+/*# sourceMappingURL=featured.css.map */

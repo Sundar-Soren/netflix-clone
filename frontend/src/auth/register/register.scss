@@ -1,0 +1,134 @@
+$primary-color:#e50914;
+$hover-color:#fa121e;
+.register{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),url("https://i0.wp.com/thebutlercollegian.com/wp-content/uploads/2019/03/netflix-image.jpg?w=1920&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .top{
+        padding: 3rem 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 8vh;
+        @media (max-width: 500px) {
+            padding: 3rem 10px;
+            
+        }
+            img{
+                height: 40px;
+                object-fit: cover;
+        }
+        .loginButton{
+            padding:0.4rem 0.9rem;
+            background-color: $primary-color;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    }
+  
+    .container{
+      color: white;
+      width: 100%;
+      height: 86vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      h1{
+        font-size: 4.5rem;
+        padding-bottom: 0.4rem;
+        @media (max-width: 800px) {
+            font-size: 4rem;
+        }
+        @media (max-width: 650px) {
+            font-size: 3rem;
+        }
+        @media (max-width: 480px) {
+            font-size: 2rem;
+        }
+        
+      }
+      h3{
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 0.4rem 0px;
+        @media (max-width: 800px) {
+            font-size: 1.5rem;
+        }
+        @media (max-width: 650px) {
+            font-size: 1rem;
+        }
+      }
+      p{
+        font-size: 1.2rem;
+        padding: 0.8rem 0px;
+        @media (max-width: 650px) {
+            font-size: 1rem;
+        }
+         }
+
+         .input{
+            width: 50%;
+            height: 4.5rem;
+            display: flex;
+            justify-content: space-between;
+            @media (max-width: 850px) {
+                width: 70%;
+                display: block;
+            }
+            
+            input{
+                padding-left: 10px;
+                width: 70%;
+                font-size: 1rem;
+                border: none;
+                outline: none;
+                @media (max-width: 850px) {
+                    width: 100%;
+                    height: 80%;
+                }
+            }
+            .registerButton{
+                cursor: pointer;
+                color: white;
+                width: 30%;
+                border: none;
+                font-size: 2rem;
+                background-color: $primary-color;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                @media (max-width: 850px) {
+                    margin-top: 0.5rem;
+                    padding: 0.5rem 0px;
+                   width: 100%;
+                   font-size: 1.5rem;
+                }
+                &:hover{
+                    
+                    background-color: $hover-color;
+                }
+                .SIcon{
+                    height: 100%;
+                    
+                }
+
+            }
+        }
+    
+    }
+
+
+}

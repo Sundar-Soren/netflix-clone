@@ -1,0 +1,20 @@
+.list-content {
+  width: 20rem;
+  height: 10rem;
+  padding: 0px 0.5rem;
+  cursor: pointer;
+}
+
+.list-content img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.list-content p {
+  padding: 3px 0px;
+  font-size: 1.2em;
+  text-align: center;
+}
+/*# sourceMappingURL=listItem.css.map */

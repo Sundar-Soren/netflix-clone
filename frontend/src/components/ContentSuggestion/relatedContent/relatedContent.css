@@ -1,0 +1,15 @@
+.related-content {
+  padding-right: 6px;
+  padding-bottom: 6px;
+  color: white;
+  height: 12rem;
+  width: 21.5rem;
+}
+
+.related-content img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=relatedContent.css.map */
