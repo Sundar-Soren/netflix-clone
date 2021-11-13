@@ -3,6 +3,7 @@ const app = express();
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 dotenv.config();
+console.log(dotenv.config());
 
 const authRoute = require("./router/auth");
 const userRoute = require("./router/user");
